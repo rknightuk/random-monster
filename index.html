@@ -116,7 +116,7 @@
                 newUrlParams.set('name', data.name);
                 const newUrl = `${window.location.pathname}?${newUrlParams.toString()}`;
                 document.getElementById('share-openly').href = `https://shareopenly.org/share/?url=${encodeURI(newUrl)}`;
-                document.getElementById('share-url').value = newUrl;
+                document.getElementById('share-url').value = `https://monster.rknight.me${newUrl}`;
             }
 
             const randomColor = () => {
