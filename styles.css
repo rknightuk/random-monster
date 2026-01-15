@@ -1,0 +1,105 @@
+:root {
+    --text: #f0f0f2;
+    --bg: #202225;
+    --primary: #6bd419;
+    --primary-dark: #58a013;
+}
+
+html {
+  font-family: "Orbitron", system-ui, sans-serif;
+  font-weight: normal;
+  font-size: 1.3em;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  color: var(--text);
+  line-height: 1.5rem;
+  background: url('bg.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+header {
+    text-align: center;;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--primary-dark);
+}
+
+.button-wrapper {
+    background: var(--bg);
+    padding: 1rem;
+}
+
+.gen-button-wrapper {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#generate-button {
+    margin: 0 auto;
+    font-family: "Orbitron", system-ui, sans-serif;
+    font-size: 1em;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-selector {
+    font-weight: bold;;
+}
+
+.buttons input {
+    border: 1px solid var(--text);
+    height: 30px;
+}
+
+.monster-can-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#monster-can {
+    max-height: 600px;
+}
+
+#can {
+    fill: #ea3b65;
+}
+
+#label-one,
+#label-two {
+    fill: var(--text);
+}
+
+#name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--primary);
+}
+
+input {
+    font-size: 1.1em;
+}
+
+.share {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.8em;
+    text-align: center;
+}
