@@ -9,7 +9,7 @@ html {
   font-family: "Orbitron", system-ui, sans-serif;
   font-weight: normal;
   font-size: 1.3em;
-  padding: 2rem;
+  padding: 0.5rem;
   max-width: 1200px;
   margin: auto;
   color: var(--text);
@@ -102,4 +102,15 @@ input {
 footer p {
     font-size: 0.8em;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 1em;
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
